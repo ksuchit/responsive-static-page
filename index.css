@@ -357,9 +357,20 @@ font-size: 18px;
 }
 .innovation-head{
     display: flex;
+    justify-content: space-between;
+}
+.innovation-head h1{
+    font-weight: 700;
+font-size: 40px;
+color: #071D49;
+width: 439px;
 }
 .innovation-head-div{
     display: flex;
+}
+.innovation-head-div p{
+    font-weight: 600;
+font-size: 24px;
 }
 .innovation-number{
     display: flex;
@@ -367,11 +378,9 @@ font-size: 18px;
 }
 .innovation-first{
     display: flex;
-    justify-content: space-between;
 }
 .innovation-second{
     display: flex;
-    justify-content: space-between;
 }
 .innovation-one{
     width:285px
@@ -379,9 +388,26 @@ font-size: 18px;
 .innovation-two{
     width:232px
 }
-.innovation-one{
+.innovation-three{
     width:217px
 }
-.innovation-one{
+.innovation-four{
     width:255px
+}
+
+@media screen and (max-width: 770px){
+    .innovation-head-div{
+        display: flex;
+        flex-direction: column;
+    }  
+    .innovation-head h1{
+    font-size: 24px;
+    width: 243px;
+    } 
+    .innovation-container{
+        font-size: 22px;
+    }
+    .innovation-number{
+        overflow: auto;
+    }
 }
