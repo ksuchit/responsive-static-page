@@ -1,731 +1,1077 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./index.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <div style="width: 185px; height: 33px; margin: 0px 0px 0px 31px">
-          <img
-            src="./utils/Final logo 1.png"
-            height="100%"
-            width="100%"
-            alt="logo"
-          />
-        </div>
-        <div class="nav-icons-container">
-          <div class="nav-icons">
-            <span>Solutions</span>
-            <img src="./utils/Icons.png" alt="icon" />
-          </div>
-          <div class="nav-icons">
-            <span>Why TransPerfect</span>
-            <img src="./utils/Icons.png" alt="icon" />
-          </div>
-          <div class="nav-icons">
-            <span>Resources</span>
-            <img src="./utils/Icons.png" alt="icon" />
-          </div>
-          <div class="nav-icons">
-            <span>Demo</span>
-          </div>
-        </div>
-        <div class="nav-right-container">
-          <div class="nav-toggle d-lg-none d-md-block d-sm-block">
-            <img src="./utils/nav-toggle.png" alt="nav toggle img" width="100%" height="0%">
-            <img src="./utils/nav-toggle.png" alt="nav toggle img" width="100%" height="0%">
-            <img src="./utils/nav-toggle.png" alt="nav toggle img" width="100%" height="0%">
-          </div>
-          <div>
-            <img
-            src="./utils/Vector.png"
-            alt="search logo"
-            style="height: 17px; width: 17px; margin-right: 20px"
-            />
-          </div>
-          <div>
-            <button class="nav-btn">Get in touch</button>
-          </div>
-        </div>
-      </div>
-    </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;0,900;1,100;1,900&display=swap"
+			rel="stylesheet" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous" />
+	</head>
+	<link
+		rel="stylesheet"
+		href="./styles.css" />
+	<body>
+		<header>
+			<nav
+				class="nav m-3 d-flex justify-content-between align-items-baseline">
+				<div class="ms-3">
+					<img
+						src="./utils/images/Final logo 1.svg"
+						alt="app-logo" />
+				</div>
+				<div class="d-flex">
+					<div class="dropdown d-flex">
+						<button
+							class="btn dropdown-toggle btn-display-in-resp align-items-baseline"
+							type="button"
+							id="dropdownMenuButton1"
+							data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Solutions
+						</button>
+					</div>
+					<div class="dropdown d-flex">
+						<button
+							class="btn dropdown-toggle btn-display-in-resp align-items-baseline"
+							type="button"
+							id="dropdownMenuButton1"
+							data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Why TransPerfect
+						</button>
+					</div>
+					<div class="dropdown d-flex">
+						<button
+							class="btn dropdown-toggle btn-display-in-resp align-items-baseline"
+							type="button"
+							id="dropdownMenuButton1"
+							data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Resources
+						</button>
+					</div>
 
-    <!-- heading content -->
-    <div class="head-container relative">
-      <div class="head-div">
-        <h1 class="font-800 hero-h1">
-          Enable Superior Patient Data Quality with Centralized COA Management
-        </h1>
-        <p class="hero-p">
-          Choose TransPerfect’s end-to-end solution for localization,
-          validation, library hosting, licensing support, and digital migration
-          of COAs.
-        </p>
-        <button class="hero-btn">Learn More</button>
-      </div>
-      <div class="head-img">
-        <img
-          src="./utils/Hero Image.png"
-          style="width: 100%"
-          class="d-none d-lg-block d-md-none"
-          alt="hero img"
-        />
-        <img
-          src="./utils/Rectangle 203.png"
-          style="width: 100%"
-          class="d-md-block d-none d-lg-none d-sm-none"
-          alt="hero img"
-        />
-        <img
-          src="./utils/Rectangle-mini.png"
-          style="width: 100%"
-          class="d-lg-none d-sm-block d-md-none"
-          alt="hero img"
-        />
-      </div>
-    </div>
-    <!-- first-gradient -->
-    <div class="absolute first-gradient">
-      <h2>
-        Minimize Time-to-Market, Mitigate Risk, and Ensure Regulatory Compliance
-        in Global Studies
-      </h2>
-      <p>
-        Regulatory authorities and patient advocates are demanding more
-        visibility than ever before into patient engagement and safety measures.
-        Sponsors are tasked with improving their data collection strategies
-        while navigating the ever-changing landscape of compliance.<br /><br />
-        TransPerfect helps sponsors streamline this complexity with AI-powered
-        eCOA migration and data collection. These COA solutions improve ease,
-        speed, compliance, and quality of patient data reporting. Meet the next
-        generation of clinical data integrity and patient safety.
-      </p>
-    </div>
-    <!-- Our solutions -->
-    <div class="solution-container">
-      <!-- solution-head -->
-      <div class="solution-head">
-        <h1>Our Solutions</h1>
-        <img src="./utils/Tab.png" />
-      </div>
-      <!-- solution-body -->
-      <div class="solution-body">
-        <div class="solution-col1">
-          <h6>Translation and COA <br />Linguistic Validation</h6>
-          <p>GlobalLink XCompare™ <br />for eCOA Migration</p>
-          <p>Applanga™ for <br />Screenshot Review</p>
-          <p>Licensing and <br />Copyright Support</p>
-          <p>COA Library and <br />Document Management</p>
-          <p>Rater Training Support</p>
-        </div>
-        <div class="solution-col2">
-          <img
-            src="./utils/solution-img.png"
-            alt="solution-img"
-            class="d-none d-lg-block"
-            style="width: 100%; margin-left: 4%"
-          />
-          <img
-            src="./utils/Transperfect Solutions Image.png"
-            class="d-none d-md-block d-lg-none d-sm-none"
-            alt="solution-img"
-            style="width: 100%; margin-left: 6%"
-          />
-          <img
-            src="./utils/Transperfect Solutions Image-phone.png"
-            alt="solution-img"
-            class="d-sm-block d-lg-none d-md-none"
-            style="width: 100%; margin-left: 2%"
-          />
-        </div>
-        <div class="solution-col3">
-          <h5>
-            Translation and Linguistic Validation of Clinical Outcome
-            Assessments
-          </h5>
-          <p>
-            License, translate, and adapt COAs across a variety of therapeutic
-            areas, while improving data quality. Translate and validate
-            patient-reported outcomes (PRO), clinician-reported outcomes
-            (ClinRO), observer-reported outcomes (ObsRO), and performance
-            outcomes (PerfO). Our specialists follow the latest guidelines and
-            ISPOR Good Practice recommendations.
-          </p>
-          <span>Our comprehensive COA solutions include:</span>
-          <ul>
-            <li>Translation and Linguistic Validation COAs</li>
-            <li>Licensing/Copyright Services</li>
-            <li>Face Validity Assessment</li>
-            <li>Translatability Evaluation</li>
-            <li>eCOA Integration and Usability Testing</li>
-            <li>Cognitive Debriefing for Source Questionnaires</li>
-            <li>Web-Based COA Library and Online Document Management</li>
-            <li>IVRS Prompt Recording</li>
-            <li>Interview Transcription</li>
-            <li>Study Binder Formatting</li>
-            <li>Research Abstracts/Posters/Manuscripts</li>
-          </ul>
-        </div>
-      </div>
-      <div class="solution-btn-div" style="margin-top: 5%">
-        <button class="solution-btn">Contact Us</button>
-      </div>
-    </div>
-    <!-- industry standderds -->
-    <div class="standerd-container">
-      <div class="standerd-head">
-        <h1>Upholding the Highest Industry Standards</h1>
-        <p>
-          Ensure conceptual equivalence and cultural appropriateness for a
-          variety of therapeutic areas.
-        </p>
-      </div>
-      <div class="standerd-body">
-        <!-- left -->
-        <div class="standerd-left">
-          <div class="standerd-left-first">
-            <h5 class="standerd-div-h5">Protect patient safety</h5>
-            <p class="standerd-div-p">
-              All TransPerfect COA Division production staff complete ongoing
-              Good Clinical Practice (GCP) training, which contributes to the
-              high quality of our deliverables. Our clients also have access to
-              ongoing training on the most up-to-date industry standards for the
-              translation of clinical outcome assessments as well as
-              full-service consulting resources.
-            </p>
-          </div>
-          <div class="standerd-left-img">
-            <img
-              alt="standerd-img"
-              src="utils/standerd-img.png"
-              class="d-lg-block d-md-none d-sm-none d-none"
-              style="width: 100%"
-            />
-          </div>
-        </div>
-        <!-- right -->
-        <div class="standerd-right">
-          <div style="width: 97%">
-            <h5 class="standerd-div-h5">Accurately capture patient data</h5>
-            <p class="standerd-div-p">
-              TransPerfect’s linguistic validation team has extensive knowledge
-              of industry standards as stated in FDA, EMA, and ISPOR Guidance
-              documents. As an ISO- and EN-certified company, TransPerfect’s
-              linguistic experts and offerings comply with ISO and EN
-              international standards and undergo regular audits for quality
-              assurance.
-            </p>
-          </div>
-          <div>
-            <h5 class="standerd-div-h5">Meet global compliance standards</h5>
-            <p class="standerd-div-p">
-              TransPerfect’s 21 CFR Part 11 compliant Trial Interactive online
-              document repository allows for web-based archiving of COAs for
-              easy access and retrieval. It stores all clinical outcome
-              assessments (PRO, ClinRO, ObsRO, PerfO), as well as all relevant
-              eCOA documentation.
-            </p>
-          </div>
-          <div>
-            <h6>Contact Us ›</h6>
-          </div>
-        </div>
-      </div>
-      <div class="standerd-tablet-img">
-        <img
-          src="./utils/standerd-tablet.png"
-          alt="standerd tablet img"
-          class="d-lg-none"
-          style="width: 100%"
-        />
-      </div>
-    </div>
-    <!-- checklist -->
-    <div class="checklist">
-      <h1>A Checklist for eCOA Solution Deployment</h1>
-      <button>Access the Content</button>
-    </div>
+					<button class="btn btn-display-in-resp">Demo</button>
+				</div>
 
-    <!-- innovation in coa by numbers -->
-    <div class="numbers-container">
-      <div class="numbers-head">
-        <h2>Innovation in COA by the Numbers</h2>
-        <div class="numbers numbers-head-right">
-          <h3>24/7</h3>
-          <p>Access</p>
-        </div>
-      </div>
-      <hr class="numbers-hr" />
-      <div class="numbers-body">
-        <div class="numbers-body1">
-          <div class="numbers numbers-1">
-            <h3>100%</h3>
-            <p>Compliance with copyright holders legal requirements</p>
-          </div>
-          <div class="numbers numbers-2">
-            <h3>97%</h3>
-            <p>Risk mitigation during eCOA migration</p>
-          </div>
-        </div>
-        <div class="numbers-body2">
-          <div class="numbers numbers-3">
-            <h3>50%</h3>
-            <p>Faster review rounds</p>
-          </div>
-          <div class="numbers numbers-4">
-            <h3>2.5x</h3>
-            <p>Faster turnarounds by eliminating ePRO vendor</p>
-          </div>
-        </div>
-      </div>
-    </div>
+				<div class="d-flex justify-content-between align-items-baseline">
+					<div class="burger-menu-dis m-3">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="17.49"
+							height="17.49"
+							fill="currentColor"
+							class="bi bi-list"
+							viewBox="0 0 16 16">
+							<path
+								fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+						</svg>
+					</div>
 
-    <!-- therapeutic areas -->
-    <div class="therapeutic-container">
-      <div class="therapeutic-img">
-        <img
-          src="./utils/therapeuntic.png"
-          class="d-none d-lg-block d-md-none d-sm-none"
-          alt="therapeutic img"
-          width="100%"
-          height="100%"
-        />
-        <img
-          src="./utils/therapeutic-tablet.png"
-          class="d-none d-lg-none d-md-block d-sm-none"
-          alt="therapeutic img"
-          width="100%"
-          height="100%"
-        />
-        <img
-          src="./utils/therapentic-mob.png"
-          class="d-lg-none d-md-none d-sm-block"
-          alt="therapeutic img"
-          width="100%"
-          height="100%"
-        />
-      </div>
-      <div class="therapeutic-body">
-        <h1>Therapeutic Areas</h1>
-        <div class="therapeutic-body-div d-lg-block d-md-block d-sm-none">
-          <!-- first -->
-          <pre>Aesthetic Medicine</pre>
-          <pre>Cardiology</pre>
-          <pre>CNS/Neurology/Psychiatry</pre>
-          <pre>Congenital/Hereditary Diseases</pre>
-          <pre>Dermatology</pre>
-          <pre>Endocrinology</pre>
-          <pre>Gastroenterology</pre>
-          <pre>Genetic Disease</pre>
-          <pre>Healthy Volunteers</pre>
-          <pre>Hemic/Lymphatic</pre>
-          <pre>Hepatology</pre>
-          <pre>Immunology</pre>
-          <!-- second -->
-          <pre>Infectious Diseases</pre>
-          <pre>Musculoskeletal</pre>
-          <pre>Nephrology</pre>
-          <pre>Neurology</pre>
-          <pre>Obstetrics/Gynecology</pre>
-          <pre>Oncology</pre>
-          <pre>Ophthalmology</pre>
-          <pre>Otolaryngology</pre>
-          <pre>Otorhinolaryngology</pre>
-          <pre>Orthopedics</pre>
-          <pre>Pediatrics</pre>
-          <pre>Pain</pre>
-          <!-- third -->
-          <pre>Plastic Surgery</pre>
-          <pre>Psychiatry/Psychology</pre>
-          <pre>Respiratory</pre>
-          <pre>Rheumatology</pre>
-          <pre>Sexual Functioning</pre>
-          <pre>Sleep Disorders</pre>
-          <pre>Spondylitis</pre>
-          <pre>Trauma</pre>
-          <pre>Urology</pre>
-          <pre>Vaccines</pre>
-        </div>
-        <div class="d-lg-none d-md-none d-sm-block d-none therapeutic-body-div-mobile ">
-          <div class="therapeutic-body-div-mobile-pre" >
-              <pre>Aesthetic Medicine</pre>
-              <pre>Cardiology</pre>
-              <pre>CNS/Neurology/Psychiatry</pre>
-              <pre>Congenital/Hereditary Diseases</pre>
-              <pre>Dermatology</pre>
-              <pre>Endocrinology</pre>
-              <pre>Gastroenterology</pre>
-              <pre>Genetic Disease</pre>
-              <pre>Healthy Volunteers</pre>
-              <pre>Hemic/Lymphatic</pre>
-              <pre>Hepatology</pre>
-              <pre>Immunology</pre>
-              <pre>Infectious Diseases</pre>
-              <pre>Musculoskeletal</pre>
-              <pre>Nephrology</pre>
-              <pre>Neurology</pre>
-              <pre>Obstetrics/Gynecolog</pre>
-          </div>
-          <div class="therapeutic-empty-div"></div>
-          <div class="therapeutic-body-div-mobile-btn"><button >See More</button></div>
-        </div>
-      </div>
-    </div>
+					<div class="m-3 d-flex align-items-baseline">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							class="bi bi-search"
+							viewBox="0 0 16 16">
+							<path
+								d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+						</svg>
+					</div>
 
-    <!-- certificate and memberships -->
-    <div class="certificates-container">
-      <h2>Certifications and Memberships</h2>
-      <p>
-        Angular Minds is an active participant in the outcomes research and
-        health economics world and has a strong record of academic achievement
-        and participation.
-      </p>
-      <div class="certificates-logo-container">
-        <img
-          class="certificates-logo1"
-          src="./utils/ISPOR_tagline 1.png"
-          alt="logo"
-        />
-        <img
-          class="certificates-logo2"
-          src="./utils/ISOQOL-logo 1.png"
-          alt="logo"
-        />
-        <img class="certificates-logo3" src="./utils/dia 1.png" alt="logo" />
-        <img class="certificates-logo4" src="./utils/raps.png" alt="logo" />
-        <img
-          class="certificates-logo5"
-          src="./utils/acrp-logo-768x768 1.png"
-          alt="logo"
-        />
-        <img
-          class="certificates-logo6"
-          src="./utils/WBE_Seal_RGB 1.png"
-          alt="logo"
-        />
-      </div>
-      <button class="d-none d-lg-none d-md-block d-sm-block">
-        Success Stories
-      </button>
-    </div>
+					<button class="btn nav-button getintouch-button">Get in touch</button>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="d-sm-flex flex-sm-column">
+				<div
+					class="row"
+					style="width: 100% !important">
+					<div class="p-5 p-md-5 p-lg-5 mt-lg-2 col-md-8 col-lg-5">
+						<h1 class="top-heading pt-lg-5">
+							Enable Superior Patient Data Quality with Centralized COA
+							Management
+						</h1>
 
-    <!-- trusted by life science -->
-    <div class="trust-container">
-      <h2>Trusted by Life Sciences Organizations Big and Small</h2>
-      <p>
-        Join TransPerfect’s community of over 1,000 life sciences organizations,
-        including pharma and biotech, CROs, IRBs and agencies.
-      </p>
-      <div class="trust-logo-container">
-        <img
-          class="trust-logo1"
-          src="./utils/Pfizer_logo 1.png"
-          alt="logo"
-          width="100%"
-        />
-        <img
-          class="trust-logo2"
-          src="./utils/novartis-logo-transparent 1.png"
-          alt="logo"
-          width="100%"
-        />
-        <img
-          class="trust-logo3"
-          src="./utils/211125_SANOFI_LOGO_RGB 1.png"
-          alt="logo"
-          width="100%"
-        />
-        <img
-          class="trust-logo4"
-          src="./utils/Roche_Logo 1.png"
-          alt="logo"
-          width="100%"
-        />
-      </div>
-      <button>Success Stories</button>
-    </div>
+						<p class="top-para">
+							Choose TransPerfect’s end-to-end solution for localization,
+							validation, library hosting, licensing support, and digital
+							migration of COAs.
+						</p>
 
-    <!-- news and thoughts -->
-    <div class="news-container">
-      <!-- news row1 -->
-      <div class="news-row1">
-        <h1>News and Thought Leadership</h1>
-        <p>
-          Our industry experts have in-depth understanding of the challenges,
-          requirements, and goals for life sciences organizations.
-        </p>
-      </div>
-      <!-- news row2 -->
-      <div class="news-row2">
-        <div class="news-row2-left">
-          <img
-            src="./utils/news-1.png"
-            class="d-md-none d-sm-none d-lg-block d-none"
-            alt="news-1"
-            width="100%"
-          />
-          <img
-            src="./utils/news1-tab.svg"
-            class="d-md-block d-sm-none d-lg-none d-none"
-            alt="news-1"
-            width="100%"
-          />
-          <img
-            src="./utils/news1-mob.png"
-            class="d-md-none d-sm-block d-lg-none"
-            alt="news-1"
-            width="100%"
-          />
-        </div>
-        <div class="news-row2-right">
-          <h6>GlobalLink™ NEXT</h6>
-          <button>Event</button>
-          <h5>AMSTERDAM | Oct 3-4, 2022</h5>
-          <p>
-            This event unites everyone that makes GlobalLink GO—engineers,
-            training staff, client support teams, and executives, along with
-            fellow GlobalLink users from around the globe.
-          </p>
-          <a href="#">GlobalLink.com</a>
-        </div>
-      </div>
-      <!-- news row3 -->
-      <div class="news-row3">
-        <!-- first column-->
-        <div class="news-row3-div">
-          <div class="news-row3-col1">
-            <img
-              src="./utils/news2.png"
-              class="d-lg-block d-md-none d-sm-none d-none"
-              alt="new2"
-              width="100%"
-            />
-            <img
-              src="./utils/news2-tab.png"
-              class="d-md-block d-lg-none d-sm-none d-none"
-              alt="new2"
-              width="100%"
-            />
-            <img
-              src="./utils/news2-mob.png"
-              class="d-md-none d-lg-none d-sm-block"
-              alt="new2"
-              width="100%"
-            />
-          </div>
-          <div class="news-row3-col1-details">
-            <span>Insight</span>
-            <h5>
-              Reaching Diverse Patient Populations to Drive Inclusivity in
-              Trials
-            </h5>
-            <p>
-              Sept 19, 2022 | The COVID-19 pandemic was catalytic in
-              highlighting gaps in health outcomes across the globe, with global
-              health inequity disproportionately...
-            </p>
-          </div>
-        </div>
-        <!-- second column -->
-        <div class="news-row3-div">
-          <div class="news-row3-col2">
-            <img
-              src="./utils/news3.png"
-              class="d-lg-block d-md-none d-sm-none d-none"
-              alt="new3"
-              width="100%"
-            />
-            <img
-              src="./utils/news3-tab.png"
-              class="d-md-block d-lg-none d-sm-none d-none"
-              alt="new3"
-              width="100%"
-            />
-            <img
-              src="./utils/news3-mob.png"
-              class="d-md-none d-lg-none d-sm-block"
-              alt="new3"
-              width="100%"
-            />
-          </div>
-          <div class="news-row3-col2-details">
-            <span>Webinar</span>
-            <h5>Best Practices with Member Marketing Materials</h5>
-            <p>
-              Jul 12, 2022 | With rapidly evolving guidelines, it can be tricky
-              to keep up with Medicare marketing requirements and ensure your
-              marketing is resonating with your multilingual members...
-            </p>
-          </div>
-        </div>
-        <!-- third column -->
-        <div class="news-row3-div">
-          <div class="news-row3-col3">
-            <img
-              src="./utils/news4.png"
-              class="d-lg-block d-md-none d-sm-none d-none"
-              alt="news4"
-              width="100%"
-            />
-            <img
-              src="./utils/news4-tab.svg"
-              class="d-md-block d-lg-none d-sm-none d-none"
-              alt="news4"
-              width="100%"
-            />
-            <img
-              src="./utils/news4-mob.png"
-              class="d-md-none d-lg-none d-sm-block"
-              alt="news4"
-              width="100%"
-            />
-          </div>
-          <div class="news-row3-col3-details">
-            <span>Insight</span>
-            <h5>
-              Intellectual Property (IP) Strategies to Consider for Life
-              Sciences Start-Ups
-            </h5>
-            <p>
-              Aug 10, 2022 | Intellectual property (IP) is one of the most
-              valuable assets a life sciences innovator or start-up has. While
-              these companies are often built on the...
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+						<button class="btn all-buttons">Learn More</button>
+					</div>
 
-    <!-- footer -->
-    <div class="footer-container">
-      <div class="footer-head">
-        <div class="footer-head-left">
-          <h5>Contact Us</h5>
-          <p class="d-lg-block d-md-none d-sm-none d-none">
-            Ready to Improve Data Quality and Protect Patient Safety?
-          </p>
-          <p class="footer-head-tablet">
-            Ready to remove friction from your life sciences processes?
-            <br />Get in touch with a content solutions expert today.
-          </p>
-        </div>
-        <div class="footer-head-right">
-          <input placeholder="Email address" />
-          <button>Get in touch</button>
-        </div>
-      </div>
-      <div class="footer">
-        <!-- first-column -->
-        <div class="footer-col1">
-          <div class="footer-logo">
-            <img
-              src="./utils/Final logo 2.png"
-              alt="logo-footer"
-              width="100%"
-            />
-          </div>
-          <div>
-            <h6>NEW YORK (Global HQ)</h6>
-            <p>ny@angular.com <br />+1 212.689.5555</p>
-          </div>
-          <div>
-            <h6>LONDON (Europe HQ)</h6>
-            <p>london@angular.com <br />+44 20.7061.2000</p>
-          </div>
-          <div>
-            <h6>HONG KONG (Asia HQ)</h6>
-            <p>hk@angular.com <br />+44 20.7061.2000</p>
-          </div>
-          <div>
-            <button class="footer-col1-btn">Contact Us</button>
-          </div>
-        </div>
-        <!-- second & third -->
-        <div class="footer-23">
-          <!-- second column -->
-          <div class="footer-col2">
-            <h6>Featured Solutions</h6>
-            <p>Research & Development</p>
-            <p>Commercial</p>
-            <p>Corporate</p>
-          </div>
-          <!-- third column -->
-          <div class="footer-col3">
-            <h6>Expertise</h6>
-            <p>ClinOps</p>
-            <p>Quality Assurance</p>
-            <p>Regulatory</p>
-            <p>Pharmacovigilance & Safety</p>
-            <p>Human Resources</p>
-            <p>Legal</p>
-            <p>Support & Customer Service</p>
-            <p>Marketing & Sales</p>
-            <p>MedAffairs</p>
-            <p>Pharmacovilgilance & Medical Information</p>
-          </div>
-        </div>
-        <!-- fourth & fifth -->
-        <div class="footer-45">
-          <!-- fourth column -->
-          <div class="footer-col4">
-            <h6>Resources</h6>
-            <p>Insights</p>
-            <p>Events</p>
-            <p>Support</p>
-            <p>Contact</p>
-          </div>
-          <!-- fifth column -->
-          <div class="footer-col5">
-            <h6>About</h6>
-            <p>Company</p>
-            <p>Customers</p>
-            <p>Leadership</p>
-            <p>Careers</p>
-          </div>
-        </div>
-        <!-- sixth column -->
-        <div class="footer-col6">
-          <i class="fa-brands fa-linkedin-in"></i>
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-      </div>
-      <div class="footer-logo-div">
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-      </div>
-      <hr
-        style="
-          background: linear-gradient(266.53deg, #6cace4 6.57%, #3bbfb5 92.52%);
-        "
-      />
-      <div class="footer-privacy">
-        <p>©2022 Anglar Minds Pvt Ltd</p>
-        <p>Privacy | Cookies | Do Not Sell My Info | Accessibility</p>
-      </div>
-    </div>
-  </body>
+					<div class="small-screen-page1-img">
+						<img
+							class="w-100"
+							src="./utils/images/Rectangle 203.svg"
+							alt="" />
+					</div>
+
+					<div class="col-md-4 mid-screen-page1-img">
+						<img
+							class="w-100"
+							src="./utils/images/Rectangle 203 mid.svg"
+							alt="" />
+					</div>
+
+					<div class="col-lg-7 p-0 lar-screen-page1-img">
+						<img
+							class="w-100"
+							src="./utils/images/Hero Image.svg"
+							alt="large or tab screen" />
+					</div>
+				</div>
+				<div class="gradeint-block-1 h-75 w-100 p-4 mb-0">
+					<div class="mb-lg-5 pe-lg-5">
+						<h2 class="fw-bolder text-start p-lg-5 pb-lg-0 me-lg-5">
+							Minimize Time-to-Market, Mitigate Risk, and Ensure Regulatory
+							Compliance in Global Studies
+						</h2>
+
+						<small>
+							<p class="text-start ps-lg-5 me-lg-5 page2-text-mata">
+								Regulatory authorities and patient advocates are demanding more
+								visibility than ever before into patient engagement and safety
+								measures. Sponsors are tasked with improving their data
+								collection strategies while navigating the ever-changing
+								landscape of compliance.
+							</p>
+							<p class="text-start ps-lg-5 me-lg-5 page2-text-mata">
+								TransPerfect helps sponsors streamline this complexity with
+								AI-powered eCOA migration and data collection. These COA
+								solutions improve ease, speed, compliance, and quality of
+								patient data reporting. Meet the next generation of clinical
+								data integrity and patient safety.
+							</p>
+						</small>
+					</div>
+				</div>
+			</div>
+			<!-- <img class="background-img-1" src="./utils/images/bg-graphic-1.svg" alt=""> -->
+			<div class="page-2 container">
+				<div class="page-2-head d-flex align-items-baseline flex-column flex-md-row flex-lg-row m-3 justify-content-lg-center justify-content-md-between">
+					<h1
+						class="text-lg-center mt-lg-0 mt-0 mb-lg-5 page-2-head-h1 fw-bolder">
+						Our Solutions
+					</h1>
+
+					<div class="pt-3  mb-3">
+						<button
+							class="btn dropdown-toggle mt-0 align-items-baseline all-buttons  page-2-head-btn"
+							type="button"
+							id="dropdownMenuButton1"
+							data-bs-toggle="dropdown"
+							aria-expanded="false">
+							<small class=""> Translation and COA <br>Linguistic Validation</small>
+						</button>
+					</div>
+				</div>
+
+				<div
+					class="d-flex justify-content-center align-content-baseline list-page2-res">
+					<!-- main div -->
+					<div class="col-lg-3 d-lg-flex flex-lg-column Toggle-page2-menu">
+						<!-- list div -->
+						<p class="page2-Menu-active p-3 m-0">
+							Translation and COA Linguistic Validation
+						</p>
+						<p class="p-3 m-0">GlobalLink XCompare™ for eCOA Migration</p>
+						<p class="p-3 m-0">Applanga™ for Screenshot Review</p>
+						<p class="p-3 m-0">Licensing and Copyright Support</p>
+						<p class="p-3 m-0">COA Library and Document Management</p>
+						<p class="p-3 m-0">Rater Training Support</p>
+					</div>
+					<div class="d-lg-flex d-md-flex col-lg-9">
+						<!-- second div to display details -->
+						<div
+							class="second-page-bg large-second-page-main-img page2-imgbg ps-3 m-lg-0 m-md-0 col-md-3">
+							<img
+								class="w-100 h-100 image-mid"
+								src="./utils/images/img.svg"
+								alt="" />
+						</div>
+
+						<div
+							class="second-page-bg small-second-page-main-img page2-imgbg ps-2">
+							<img
+								class="w-100"
+								src="./utils/images/Transperfect Solutions Image.svg"
+								alt="" />
+						</div>
+						<div
+							class="p-lg-4 pt-lg-4 p-md-4 m-sm-2 p-3 pt-0 page2-text-mata Page2-info-data m-lg-0 m-md-0 col-md-9">
+							<small>
+								<h5 class="fw-bolder pb-0 pt-lg-2 pt-md-2">
+									Translation and Linguistic Validation of Clinical Outcome
+									Assessments
+								</h5>
+								<p class="text-dark">
+									License, translate, and adapt COAs across a variety of
+									therapeutic areas, while improving data quality. Translate and
+									validate patient-reported outcomes (PRO), clinician-reported
+									outcomes (ClinRO), observer-reported outcomes (ObsRO), and
+									performance outcomes (PerfO). Our specialists follow the
+									latest guidelines and ISPOR Good Practice recommendations.
+								</p>
+								<p class="text-dark">
+									Our comprehensive COA solutions include:
+								</p>
+								<ul class="mt-0 text-dark">
+									<li>Translation and Linguistic Validation COAs</li>
+									<li>Licensing/Copyright Services</li>
+									<li>Face Validity Assessment</li>
+									<li>Translatability Evaluation</li>
+									<li>Integration and Usability Testing</li>
+									<li>Debriefing for Source Questionnaires</li>
+									<li>Web-Based COA Library and Online Document Management</li>
+									<li>IVRS Prompt Recording</li>
+									<li>Interview Transcription</li>
+									<li>Study Binder Formatting</li>
+									<li>Research Abstracts/Posters/Manuscripts</li>
+								</ul>
+							</small>
+						</div>
+					</div>
+				</div>
+				<div class="text-center m-5">
+					<button class="btn all-buttons">contact Us</button>
+				</div>
+			</div>
+
+			<div class="page3">
+				<div class="card-body pt-5 p-sm-2 p-md-5 p-lg-5 pb-lg-0">
+					<h3 class="card-title fw-bolder p-5 pb-0">
+						Upholding the Highest Industry Standards
+					</h3>
+					<p class="card-text p-fontsize pe-5 ps-5">
+						Ensure conceptual equivalence and cultural appropriateness for a
+						variety of therapeutic areas.
+					</p>
+					<div class="row">
+						<div class="col-lg">
+							<h5 class="fw-bolder pe-5 ps-5 pt-3 pt-lg-5 pb-lg-3">
+								Protect patient safety
+							</h5>
+							<p class="p-fontsize pe-5 ps-5 pb-lg-5">
+								All TransPerfect COA Division production staff complete ongoing
+								Good Clinical Practice (GCP) training, which contributes to the
+								high quality of our deliverables. Our clients also have access
+								to ongoing training on the most up-to-date industry standards
+								for the translation of clinical outcome assessments as well as
+								full-service consulting resources.
+							</p>
+							<div class="large-screen-page3-img">
+								<img
+									class="w-100"
+									src="./utils/images/page3-lg-img.svg"
+									alt="..." />
+							</div>
+						</div>
+
+						<div class="col-lg">
+							<h5 class="fw-bolder pe-5 ps-5 pt-3 pt-lg-5 pb-lg-3">
+								Accurately capture patient data
+							</h5>
+							<p class="p-fontsize pe-5 ps-5">
+								TransPerfect’s linguistic validation team has extensive
+								knowledge of industry standards as stated in FDA, EMA, and ISPOR
+								Guidance documents. As an ISO- and EN-certified company,
+								TransPerfect’s linguistic experts and offerings comply with ISO
+								and EN international standards and undergo regular audits for
+								quality assurance.
+							</p>
+							<h5 class="fw-bolder pe-5 ps-5 pt-3 pt-lg-5 pb-lg-3">
+								Meet global compliance standards
+							</h5>
+							<p class="p-fontsize pe-5 ps-5">
+								TransPerfect’s 21 CFR Part 11 compliant Trial Interactive online
+								document repository allows for web-based archiving of COAs for
+								easy access and retrieval. It stores all clinical outcome
+								assessments (PRO, ClinRO, ObsRO, PerfO), as well as all relevant
+								eCOA documentation.
+							</p>
+							<div class="p-5 page3-navi">
+								<small> Contact Us › </small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-img-bottom small-screen-page3-img">
+					<img
+						class="w-100"
+						src="./utils/images/Groupdiscussimg.svg"
+						alt="..." />
+				</div>
+			</div>
+
+			<div class="page4">
+				<div
+					class="d-flex flex-column justify-content-center align-content-around text-center p-5"
+					style="width: 100% !important">
+					<h1 class="text-lg-center fw-bolder">
+						A Checklist for eCOA Solution Deployment
+					</h1>
+					<div>
+						<button class="m-4 btn all-buttons">Access the Content</button>
+					</div>
+				</div>
+
+				<div class="page4-numbers-display">
+					<div
+						class="page4-num-dis-head d-flex flex-column justify-content-around align-items-baseline">
+						<div
+							class="d-flex justify-content-around page4-1st-block flex-column flex-lg-row flex-sm-column"
+							style="width: 100%; box-sizing: border-box">
+							<h3 class="fw-bolder p-5">Innovation in COA by the Numbers</h3>
+							<div
+								class="p-5 d-flex justify-content-between align-items-center flex-md-column flex-lg-row flex-sm-column flex-column">
+								<h3 class="holow-nums">24/7</h3>
+								<h6 class="fw-bolder">Access</h6>
+							</div>
+						</div>
+						<div
+							style="width: 100%"
+							class="page4-num-block d-flex justify-content-between p-4 flex-sm-column flex-md-row flex-lg-row flex-column flex-nowrap overflow-auto">
+							<div class="d-flex">
+								<div class="m-5">
+									<h3 class="holow-nums">100%</h3>
+									<h6 class="fw-bolder">
+										Compliance with copyright holders legal requirements
+									</h6>
+								</div>
+								<div class="m-5">
+									<h3 class="holow-nums">97%</h3>
+									<h6 class="fw-bolder">
+										Risk mitigation during eCOA migration
+									</h6>
+								</div>
+							</div>
+
+							<div class="d-flex">
+								<div class="m-5">
+									<h3 class="holow-nums">50%</h3>
+									<h6 class="fw-bolder">Faster review rounds</h6>
+								</div>
+								<div class="m-5">
+									<h3 class="holow-nums">2.5x</h3>
+									<h6 class="fw-bolder">
+										Faster turnarounds by eliminating ePRO vendor
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="page4-end row pt-lg-0 p-0 w-100"
+						style="width: 100% !important">
+						<div
+							class="col-md-3 col-lg-4 pt-0 p-0 page4-large-img"
+							style="box-sizing: border-box">
+							<img
+								class="w-100"
+								src="./utils/images/img (1).svg"
+								alt="doc-image" />
+						</div>
+						<div class="page4-small-img p-0">
+							<img
+								class="w-100 h-100 p-0 page4-small-img"
+								src="./utils/images/Therapeutic Areas image.svg"
+								alt="doc-image" />
+						</div>
+						<div
+							class="col-lg-8 col-md-9 p-0"
+							style="box-sizing: border-box">
+							<div class="m-5 bg-white p-lg-5 p-sm-3 p-3 p-md-5">
+								<h5
+									class="fw-bolder"
+									style="width: 100% !important; font-size: 2rem">
+									Therapeutic Areas
+								</h5>
+
+								<div class="over_1"></div>
+
+								<div class="w-100">
+									<ul
+										class="d-flex flex-column page4-list-block flex-nowrap flex-md-wrap flex-lg-wrap overflow-hidden"
+										style="list-style: none; padding-left: 0%">
+										<li>Aesthetic Medicine</li>
+										<li>Cardiology</li>
+										<li>CNS/Neurolaogy/Psychiatry</li>
+										<li>Congenital/Hereditary Diseases</li>
+										<li>Dermatology</li>
+										<li>Endocrinology</li>
+										<li>Gastroenterology</li>
+										<li>Genetic Disease</li>
+										<li>Healthy Volunteers</li>
+										<li>Hemic/Lymphatic</li>
+										<li>Hepatology</li>
+										<li>Immunology</li>
+										<li>Infectious Diseases</li>
+										<li>Musculoskeletal</li>
+										<li>Nephrology</li>
+										<li>Neurology</li>
+										<li>Obstetrics/Gynecology</li>
+										<li>Oncology</li>
+										<li>Ophthalmology</li>
+										<li>Otolaryngology</li>
+										<li>Otorhinolaryngology</li>
+										<li>Orthopedics</li>
+										<li>Pediatrics</li>
+										<li>Pain</li>
+										<li>Plastic Surgery</li>
+										<li>Psychiatry/Psychology</li>
+										<li>Respiratory</li>
+										<li>Rheumatology</li>
+										<li>Sexual Functioning</li>
+										<li>Sleep Disorders</li>
+										<li>Spondylitis</li>
+										<li>Trauma</li>
+										<li>Urology</li>
+										<li>Vaccines</li>
+									</ul>
+									<div class="list-seemore-btn justify-content-center">
+										<button class="btn btn-sm all-buttons m-3">See More</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="page5">
+				<div
+					class="page5-header text-center p-lg-5 m-lg-5 m-sm-4 p-sm-2 p-2 pb-lg-0 mb-lg-0">
+					<h3 class="fw-bolder">Certifications and Memberships</h3>
+					<small
+						><p class="pe-lg-5 ps-lg-5 pt-3 pb-0">
+							Angular Minds is an active participant in the outcomes research
+							and health economics world and has a strong record of academic
+							achievement and participation.
+						</p></small
+					>
+				</div>
+				<div
+					class="d-flex justify-content-around align-items-baseline flex-sm-wrap flex-wrap flex-md-nowrap overflow-scroll ">
+					<div>
+						<img
+							src="./utils/images/ISPOR_tagline 1.svg"
+							alt="" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/ISOQOL-logo 1.svg"
+							alt="" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/dia 1.png"
+							alt=""
+							width="244px"
+							height="244px" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad 1.svg"
+							alt="" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/acrp-logo-768x768 1.svg"
+							alt="" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/WBE_Seal_RGB 1.svg"
+							alt="" />
+					</div>
+				</div>
+			</div>
+
+			<div class="page6">
+				<div
+					class="page5-header text-center p-lg-5 m-lg-5 m-sm-5 p-sm-2 p-2 pb-lg-0 mb-lg-0">
+					<h3 class="fw-bolder">
+						Trusted by Life Sciences Organizations Big and Small
+					</h3>
+					<small
+						><p class="pe-lg-5 ps-lg-5 pt-3 pb-0">
+							Join TransPerfect’s community of over 1,000 life sciences
+							organizations, including pharma and biotech, CROs, IRBs and
+							agencies.
+						</p></small
+					>
+				</div>
+
+				<div
+					class="d-flex align-items-baseline justify-content-around flex-wrap">
+					<div>
+						<img
+							src="./utils/images/Pfizer_logo 1.svg"
+							alt="" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/novartis-logo-transparent 1.svg"
+							alt="" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/211125_SANOFI_LOGO_RGB 1.svg"
+							alt="" />
+					</div>
+					<div>
+						<img
+							src="./utils/images/Roche_Logo 1.svg"
+							alt="" />
+					</div>
+				</div>
+				<div class="d-flex justify-content-center m-5">
+					<button class="btn all-buttons">Success Stories</button>
+				</div>
+			</div>
+
+			<div class="page7">
+				<div>
+					<div
+						class="page5-header text-start p-lg-5 m-lg-5 m-sm-5 p-sm-2 p-2 pb-lg-0 mb-lg-0">
+						<h1
+							class="fw-bolder"
+							style=" backdrop-filter: blur(1px)">
+							News and Thought Leadership
+						</h1>
+						<small
+							><p
+								class="  "
+								style="backdrop-filter: blur(2px)">
+								Our industry experts have in-depth understanding of the
+								challenges, requirements, and goals for life sciences
+								organizations.
+							</p></small
+						>
+					</div>
+					<div class="page7-card-dis m-5">
+						<div
+							class="page7-cards cardOne d-flex flex-column flex-sm-column flex-md-row flex-lg-row m-lg-5 m-md-2">
+							<div class="">
+								<img
+									class="w-100"
+									style="
+										width: 100%;
+										height: 100%;
+										object-fit: cover;
+										border-top-left-radius: 150px;
+									"
+									src="./utils/images/Amsterdan-city.svg"
+									alt="" />
+							</div>
+							<div
+								class="p-3 p-lg-5 w-100"
+								style="background: #ebf1f7">
+								<h3 class="fw-bolder">GlobalLink™ NEXT</h3>
+								<div>
+									<span
+										><button class="btn btn-sm all-buttons">Event</button></span
+									>
+									<p class="fw-bold">AMSTERDAM | Oct 3-4, 2022</p>
+									<p>
+										<small>
+											This event unites everyone that makes GlobalLink
+											GO—engineers, training staff, client support teams, and
+											executives, along with fellow GlobalLink users from around
+											the globe.
+										</small>
+									</p>
+									<div>
+										<small><h6 class="fw-bolder">GlobalLink.com</h6></small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							class="d-flex justify-content-evenly flex-column flex-md-column flex-lg-row flex-sm-column card-block">
+							<!-- div to make larger screen changes used here -->
+							<div
+								class="d-flex flex-lg-column flex-md-row flex-sm-column flex-column m-1 m-sm-1 m-md-3 m-lg-3 card1">
+								<img
+									class=""
+									style="object-fit: cover; border-top-left-radius: 100px"
+									src="./utils/images/Doc-talk.svg"
+									alt="Card image cap" />
+								<div
+									class="p-3"
+									style="
+										background: rgba(255, 255, 255, 0.75);
+										backdrop-filter: blur(1px);
+									">
+									<div>
+										<span
+											class="card-label-dis"
+											style="
+												background: linear-gradient(
+													180deg,
+													#e2effa 5.36%,
+													#dcf3f0 100%
+												);
+											"
+											>Insight</span
+										>
+									</div>
+									<div>
+										<h5 class="fw-bolder mt-3">
+											Reaching Diverse Patient Populations to Drive Inclusivity
+											in Trials
+										</h5>
+										<p>
+											<span class="fw-bolder">Sept 19, 2022 |</span> The
+											COVID-19 pandemic was catalytic in highlighting gaps in
+											health outcomes across the globe, with global health
+											inequity disproportionately...
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div
+								class="d-flex flex-lg-column flex-md-row flex-sm-column flex-column m-1 m-sm-1 m-md-3 m-lg-3 card1">
+								<img
+									class=""
+									style="object-fit: cover; border-bottom-left-radius: 100px"
+									src="./utils/images/Working Women - Webinar 3.svg"
+									alt="Card image cap" />
+								<div
+									class="p-3"
+									style="
+										background: rgba(255, 255, 255, 0.75);
+										backdrop-filter: blur(1px);
+									">
+									<div>
+										<span
+											class="card-label-dis"
+											style="
+												background: linear-gradient(
+													180deg,
+													#e9e2fc 0%,
+													#fbe7f0 100%
+												);
+											"
+											>Webinar</span
+										>
+									</div>
+									<div>
+										<h5 class="fw-bolder mt-3">
+											Best Practices with Member Marketing Materials
+										</h5>
+										<p>
+											<span class="fw-bolder">Jul 12, 2022 | </span> With
+											rapidly evolving guidelines, it can be tricky to keep up
+											with Medicare marketing requirements and ensure your
+											marketing is resonating with your multilingual members...
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div
+								class="d-flex flex-lg-column flex-md-row flex-sm-column flex-column m-1 m-sm-1 m-md-3 m-lg-3 card1">
+								<img
+									class=""
+									style="object-fit: cover; border-top-left-radius: 100px"
+									src="./utils/images/box-choose.svg"
+									alt="Card image cap" />
+								<div
+									class="p-3"
+									style="
+										background: rgba(255, 255, 255, 0.75);
+										backdrop-filter: blur(4px);
+									">
+									<div>
+										<span
+											class="card-label-dis"
+											style="
+												background: linear-gradient(
+													180deg,
+													#e2effa 49.96%,
+													#dcf3f0 100%
+												);
+											"
+											>Insight</span
+										>
+									</div>
+									<div>
+										<h5 class="fw-bolder mt-3">
+											Best Practices with Member Marketing Materials
+										</h5>
+										<p>
+											<span class="fw-bolder">Aug 10, 2022 | </span>Intellectual
+											property (IP) is one of the most valuable assets a life
+											sciences innovator or start-up has. While these companies
+											are often built on the...
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="tab-mob-green-foot">
+				<div
+					class="p-5 d-flex flex-column vw-100"
+					style="
+						background: linear-gradient(
+							266.53deg,
+							#99cc33 6.57%,
+							#3bbfb5 92.52%
+						);
+					">
+					<div class="">
+						<h6 class="fw-bolder">Contact Us</h6>
+						<small>
+							<p>
+								Ready to remove friction from your life sciences processes?<br />
+								Get in touch with a content solutions expert today.
+							</p>
+						</small>
+					</div>
+
+					<div class="d-flex align-items-baseline justify-content-around">
+						<input
+							class="form-control form-control-sm"
+							type="email"
+							placeholder="Email address"
+							aria-label=".form-control-sm example" />
+						<div class="m-2">
+							<button
+								class="btn btn-sm all-buttons"
+								style="min-width: 8rem">
+								Get in touch
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-page p-lg-5 pb-lg-0 mt-0 p-sm-4 p-4">
+				<div class="lg-green-foot-pill">
+					<div
+						class="d-flex justify-content-around p-5 w-100"
+						style="
+							border-radius: 8rem;
+							background: linear-gradient(
+								266.53deg,
+								#99cc33 6.57%,
+								#3bbfb5 92.52%
+							);
+						">
+						<div>
+							<h6 class="fw-bolder">Contact Us</h6>
+							<p>Ready to Improve Data Quality and Protect Patient Safety?</p>
+						</div>
+
+						<div class="d-flex m-3 align-items-baseline">
+							<input
+								class="form-control form-control-sm"
+								type="email"
+								placeholder="Email address"
+								aria-label=".form-control-sm example" />
+							<button
+								class="btn all-buttons btn-sm m-2"
+								style="min-width: 8rem">
+								Get in touch
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="footer-logo-md-dis mb-2">
+					<img
+						class="pb-lg-5"
+						src="./utils/images/Final logo 2.svg"
+						alt="company-logo" />
+				</div>
+				<div
+					class="d-flex justify-content-between flex-column flex-sm-column flex-md-row flex-lg-row pt-5">
+					<div
+						class="d-md-flex flex-column justify-content-md-between justify-content-between">
+						<div class="d-flex flex-column align-content-start">
+							<div class="footer-logo-dis">
+								<img
+									class="pb-lg-5"
+									src="./utils/images/Final logo 2.svg"
+									alt="company-logo" />
+							</div>
+
+							<div>
+								<p class="fw-bold foot-imp-text pb-0">NEW YORK (Global HQ)</p>
+								<p class="fw-bold">
+									ny@angular.com<br />
+									+1 212.689.5555
+								</p>
+							</div>
+
+							<div>
+								<p class="fw-bold foot-imp-text">LONDON (Europe HQ)</p>
+								<p class="fw-bold">
+									london@angular.com<br />
+									+44 20.7061.2000
+								</p>
+							</div>
+
+							<div>
+								<p class="fw-bold foot-imp-text">HONG KONG (Asia HQ)</p>
+								<p class="fw-bold">
+									hk@angular.com <br />
+									+44 20.7061.2000
+								</p>
+							</div>
+
+							<div>
+								<button
+									class="btn"
+									style="background-color: #ec398a">
+									Contact us ›
+								</button>
+							</div>
+						</div>
+						<div class="social-media-img-md">
+							<div
+								class="d-flex flex-lg-column flex-row flex-sm-row"
+								style="gap: 1.6rem; color: #3bbfb5">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-linkedin"
+									viewBox="0 0 16 16">
+									<path
+										d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+								</svg>
+
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-youtube"
+									viewBox="0 0 16 16">
+									<path
+										d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+								</svg>
+
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-facebook"
+									viewBox="0 0 16 16">
+									<path
+										d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+								</svg>
+
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-twitter"
+									viewBox="0 0 16 16">
+									<path
+										d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+								</svg>
+							</div>
+						</div>
+					</div>
+
+					<div class="Large-screen-footer-divs">
+						<p class="fw-bold foot-imp-text">Featured Solutions</p>
+						<ul class="foot-lists">
+							<li>Research & Development</li>
+							<li>Commercial</li>
+							<li>Corporate</li>
+						</ul>
+					</div>
+
+					<div class="Large-screen-footer-divs">
+						<p class="fw-bold foot-imp-text">Expertise</p>
+						<ul class="foot-lists">
+							<li>ClinOps</li>
+							<li>Quality Assurance</li>
+							<li>Regulatory</li>
+							<li>Pharmacovigilance & Safety</li>
+							<li>Human Resources</li>
+							<li>Legal</li>
+							<li>Support & Customer Service</li>
+							<li>Marketing & Sales</li>
+							<li>MedAffairs</li>
+							<li>Pharmacovilgilance & Medical Information</li>
+						</ul>
+					</div>
+
+					<div class="Large-screen-footer-divs">
+						<p class="fw-bold foot-imp-text">Resources</p>
+						<ul class="foot-lists">
+							<li>Insights</li>
+							<li>Events</li>
+							<li>Support</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+
+					<div class="Large-screen-footer-divs">
+						<p class="fw-bold foot-imp-text">About</p>
+						<ul class="foot-lists">
+							<li>Company</li>
+							<li>Customers</li>
+							<li>Leadership</li>
+							<li>Careers</li>
+						</ul>
+					</div>
+
+					<div class="footer-sm-mid-screen">
+						<!-- to display both div side by side -->
+						<div
+							class="d-sm-flex flex-sm-column flex-lg-row pe-md-5 ps-md-5 p-0">
+							<!-- to display the small screen footer created this div 1 -->
+							<div class="pe-lg-5 ps-lg-5">
+								<p class="fw-bold foot-imp-text">Featured Solutions</p>
+								<ul class="foot-lists">
+									<li>Research & Development</li>
+									<li>Commercial</li>
+									<li>Corporate</li>
+								</ul>
+							</div>
+
+							<div class="pe-lg-5 ps-lg-5">
+								<p class="fw-bold foot-imp-text">Expertise</p>
+								<ul class="foot-lists">
+									<li>ClinOps</li>
+									<li>Quality Assurance</li>
+									<li>Regulatory</li>
+									<li>Pharmacovigilance & Safety</li>
+									<li>Human Resources</li>
+									<li>Legal</li>
+									<li>Support & Customer Service</li>
+									<li>Marketing & Sales</li>
+									<li>MedAffairs</li>
+									<li>Pharmacovilgilance & Medical Information</li>
+								</ul>
+							</div>
+						</div>
+
+						<div
+							class="d-sm-flex flex-sm-column flex-lg-row pe-md-5 ps-md-5 p-0">
+							<!-- to display the small screen footer created this div 2 -->
+							<div class="pe-lg-5 ps-lg-5">
+								<p class="fw-bold foot-imp-text">Resources</p>
+								<ul class="foot-lists">
+									<li>Insights</li>
+									<li>Events</li>
+									<li>Support</li>
+									<li>Contact</li>
+								</ul>
+							</div>
+
+							<div class="pe-lg-5 ps-lg-5">
+								<p class="fw-bold foot-imp-text">About</p>
+								<ul class="foot-lists">
+									<li>Company</li>
+									<li>Customers</li>
+									<li>Leadership</li>
+									<li>Careers</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="social-media-img">
+						<div
+							class="d-flex flex-lg-column flex-row flex-sm-row align-content-end"
+							style="gap: 1.6rem; color: #3bbfb5">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="currentColor"
+								class="bi bi-linkedin"
+								viewBox="0 0 16 16">
+								<path
+									d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+							</svg>
+
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="currentColor"
+								class="bi bi-youtube"
+								viewBox="0 0 16 16">
+								<path
+									d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+							</svg>
+
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="currentColor"
+								class="bi bi-facebook"
+								viewBox="0 0 16 16">
+								<path
+									d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+							</svg>
+
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="currentColor"
+								class="bi bi-twitter"
+								viewBox="0 0 16 16">
+								<path
+									d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div
+					class="d-flex flex-sm-column flex-column flex-md-column flex-lg-row justify-content-between pt-4 pb-4 mt-3"
+					style="border-top: 2px solid #3bbfb5">
+					<code class="text-white">©2022 Anglar Minds Pvt Ltd</code>
+					<code class="text-white"
+						>Privacy | Cookies | Do Not Sell My Info | Accessibility</code
+					>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

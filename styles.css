@@ -1,0 +1,405 @@
+/** @format */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Montserrat';
+	color: #071d49;
+/* 
+	background-image: url('./utils/images/bg-graphic-1.svg'),
+		url('./utils/images/bg-graphic-2.svg'),
+		url('./utils/images/bg-graphic-3.svg');
+	background-repeat: no-repeat;
+	background-position: 1000px 480px, -200px 1370px, -550px 5100px; */
+	/* x-axis y-zxis*/
+}
+.top-heading {
+	font-family: 'Montserrat';
+	font-weight: 800;
+}
+.nav-button {
+	background-color: #c5def4;
+}
+
+.btn-display-in-resp {
+	display: none;
+	font-size: small;
+}
+
+.burger-menu-dis {
+	display: none;
+}
+
+.getintouch-button {
+	display: none;
+}
+.all-buttons {
+	background-color: #254aa0;
+	color: #fff;
+}
+
+.gradeint-block-1 {
+	background: linear-gradient(180deg, #3bbfb5 0%, #254aa0 53.02%);
+	color: #fff;
+	width: 100%;
+}
+.list-page2-res {
+	display: none;
+}
+.Toggle-page2-menu {
+	display: none;
+}
+.small-screen-page1-img {
+	display: none;
+}
+.lar-screen-page1-img {
+	display: none;
+}
+.mid-screen-page1-img {
+	display: none;
+}
+.small-second-page-main-img {
+	display: none;
+}
+.page2-imgbg {
+	background: linear-gradient(
+		215.02deg,
+		#3bbfb5 50.57%,
+		#99cc33 76.83%,
+		#6cace4 100%
+	);
+	border-radius: 6rem 0px 4.5rem 4px;
+}
+.page2-Menu-active {
+	border-left: 4px solid #6cace4;
+}
+.page3 {
+	background: linear-gradient(169.48deg, #254aa0 6.49%, #7355c0 90.04%);
+	color: #fff;
+	font-family: 'Montserrat';
+	border-radius: 8rem 0 8rem 0;
+}
+.p-fontsize {
+	font-size: 0.8rem;
+}
+.page3-navi > small {
+	border-bottom: 2px solid red;
+}
+.large-screen-page3-img {
+	display: none;
+}
+.holow-nums {
+	font-family: sans-serif;
+	font-size: 80px;
+	font-weight: 800;
+	-webkit-text-fill-color: #e0f0f7; /*Will override color (regardless of order) */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-size-adjust: 10px;
+}
+
+.page4-1st-block {
+	border-bottom: 2px solid #3bbfb5;
+}
+.page4-num-dis-head {
+	background-color: #e0f0f7;
+}
+.page4-small-img {
+	display: none;
+}
+.page4-large-img {
+	display: none;
+}
+
+.page5-btn {
+	display: none;
+}
+.footer-page {
+	background-color: #071d49;
+	color: #fff;
+	font-size: 0.6rem;
+}
+.lg-green-foot-pill {
+	color: #071d49;
+}
+.tab-mob-green-foot {
+	display: none;
+}
+.lg-green-foot-pill {
+	display: none;
+}
+.foot-lists {
+	list-style: none;
+	padding-left: 0;
+}
+.foot-lists > li {
+	font-size: 0.6rem;
+	padding: 0.5rem 0;
+}
+.foot-imp-text {
+	color: #3bbfb5;
+	font-size: 0.7rem;
+}
+.page4-num-block {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none;
+}
+
+.page4-num-block ::-webkit-scrollbar {
+	display: none;
+}
+
+/* background images */
+.background-img-1 {
+	position: absolute;
+}
+.card-label-dis {
+	border-radius: 4px;
+	padding: 4px 8px;
+}
+.footer-logo-md-dis {
+	display: none;
+}
+.footer-logo-dis {
+	display: none;
+}
+.social-media-img {
+	display: none;
+}
+.social-media-img-md {
+	display: none;
+}
+.list-seemore-btn {
+	display: none;
+}
+.footer-sm-mid-screen {
+	display: none;
+}
+.Large-screen-footer-divs {
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	body {
+		background: none;
+	}
+	.burger-menu-dis {
+		display: flex;
+	}
+	.gradeint-block-1 {
+		border-radius: 0 50px 0 50px;
+		position: relative;
+		top: -8rem;
+	}
+
+	.small-screen-page1-img {
+		display: flex;
+	}
+
+	.large-second-page-main-img {
+		display: none;
+	}
+	.small-second-page-main-img {
+		display: flex;
+	}
+	.small-screen-page3-img {
+		display: flex;
+	}
+	.page4-small-img {
+		display: flex;
+		object-fit: cover;
+		border-radius: 0 0 8rem 0;
+		position: relative;
+		bottom: 3.5rem;
+		z-index: -1;
+	}
+	.page4-num-dis-head {
+		border-radius: 0 0 8rem 0;
+	}
+	.page4-list-block {
+		height: 200px;
+	}
+	.tab-mob-green-foot {
+		display: flex;
+	}
+	.footer-logo-dis {
+		display: flex;
+	}
+	.social-media-img {
+		display: flex;
+	}
+	.list-seemore-btn {
+		display: flex;
+	}
+
+	.over_1 {
+		position: absolute;
+		height: 200px;
+		width: 80%;
+		background: linear-gradient(
+			360deg,
+			#ffffff 0%,
+			rgba(255, 255, 255, 0.8) 44.27%,
+			rgba(255, 255, 255, 0) 72.92%
+		);
+		z-index: 1;
+	}
+	.footer-sm-mid-screen {
+		display: flex;
+	}
+}
+
+/* .over_1 {
+visibility: hidden;
+    
+} */
+
+/* background-position: 1000px 480px, -200px 1370px, -550px 5100px;
+    x-axis y-zxis */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		background-position: 500px 130px, -280px 800px, -620px 5280px;
+	}
+
+	.burger-menu-dis {
+		display: flex;
+	}
+	.getintouch-button {
+		display: flex;
+		background-color: #254aa0;
+		color: #fff;
+	}
+	.gradeint-block-1 {
+		border-radius: 0 8rem 0 8rem;
+		position: relative;
+		top: -7.5rem;
+	}
+	.mid-screen-page1-img {
+		display: flex;
+	}
+	.page-2-head {
+		display: flex;
+		justify-content: end;
+	}
+	.Page2-info-data {
+		border-top: 3px solid #3bbfb5;
+	}
+	.page2-imgbg {
+		border-radius: 7.5rem 0px 12rem 4px;
+	}
+	.image-mid {
+		object-fit: cover;
+		border-radius: 7rem 0 7rem 0;
+	}
+	.small-screen-page3-img {
+		display: flex;
+	}
+	.page4-large-img {
+		display: flex;
+	}
+	.page4-list-block {
+		height: 325px;
+	}
+	.page5-btn {
+		display: flex;
+	}
+	.tab-mob-green-foot {
+		display: flex;
+	}
+	.footer-logo-md-dis {
+		display: flex;
+	}
+	.social-media-img-md {
+		display: flex;
+	}
+	.footer-sm-mid-screen {
+		display: flex;
+	}
+}
+.page2-text-mata p,
+li {
+	font-size: 12px;
+}
+
+@media only screen and (min-width: 992px) {
+	.btn-display-in-resp {
+		display: flex;
+	}
+	.getintouch-button {
+		display: flex;
+		background-color: #c5def4;
+	}
+
+	.list-page2-res {
+		display: none;
+	}
+	.Toggle-page2-menu {
+		display: flex;
+		border-left: 2px solid #c5def4;
+	}
+	.Toggle-page2-drop {
+		display: none;
+	}
+	.gradeint-block-1 {
+		border-radius: 0 8rem 0 8rem;
+		position: relative;
+		top: -10rem;
+	}
+	.lar-screen-page1-img {
+		display: flex;
+	}
+	.large-second-page-main-img {
+		display: flex;
+	}
+	.page-2-head-btn {
+		display: none;
+	}
+	.Page2-info-data {
+		border-top: 3px solid #3bbfb5;
+	}
+	.page2-imgbg {
+		border-radius: 7rem 0px 12rem 4px;
+	}
+	.image-mid {
+		object-fit: cover;
+		border-radius: 7rem 0 7rem 0;
+	}
+	.small-screen-page3-img {
+		display: none;
+	}
+	.large-screen-page3-img {
+		display: flex;
+		position: relative;
+		left: -3rem;
+		bottom: 0;
+	}
+	.page4-large-img {
+		display: flex;
+		object-fit: cover;
+	}
+	.page4-list-block {
+		height: 235px;
+	}
+	.page5-btn {
+		display: flex;
+	}
+	.card1 {
+		width: 33%;
+	}
+	.lg-green-foot-pill {
+		display: flex;
+		font-size: 1rem;
+	}
+	.footer-logo-dis {
+		display: flex;
+	}
+	.social-media-img {
+		display: flex;
+	}
+	.Large-screen-footer-divs {
+		display: flex;
+		flex-direction: column;
+	}
+}
